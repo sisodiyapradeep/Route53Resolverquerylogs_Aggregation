@@ -4,10 +4,10 @@ Parameters:
   CustomConfigRuleName:
     Description: Name that you want to give to the AWS Config Rule.
     Type: String
-    Default: Kyndryl-CTO-ConfigRule-QueryLogs-Tagging
+    Default: xxxxxx-CXX-ConfigRule-QueryLogs-Tagging
   tag1Key:
     Type: String
-    Default: Kyndryl_CTO_Query_logs
+    Default: xxxxxx_CXX_Query_logs
     Description: The Key for the Hosted Zone and VPCs enabled with Query logs.
   tag1Value:
     Type: String
