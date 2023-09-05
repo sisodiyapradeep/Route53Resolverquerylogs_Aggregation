@@ -1,7 +1,8 @@
 # Enable Resolver Query logs for member accounts
 As part of the CISO tools onboarding (Splunk), Resolver Query logs will be enabled in all the member accounts private hosted zones  across AWS Organization. This is achieved through a Config rule that constantly checks the Resolver Query logs enabled status on every VPCs. The diagram below explains the architecture.
 
-![Figure: Resolver query logs](Capture.png)
+![Figure: Resolver query logs](Capture.PNG)
+
 ## Prerequisites
 
 The following prerequisites must be in place in order to run this cloudformation template,
